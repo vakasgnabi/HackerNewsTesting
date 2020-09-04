@@ -12,8 +12,9 @@
     padding-left:10px;
 }
 
-.middle-links a{
+.middle-links button{
     text-decoration: none;
+    padding:0;
     color:black;
 }
 .middle-links{
@@ -21,8 +22,10 @@
 }
 .login-link{
     text-align:right;
+    padding:0;
+    
 }
-.login-link a{
+.login-link button{
     color:black;
     text-decoration:none;
 }

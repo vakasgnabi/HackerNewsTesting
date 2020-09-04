@@ -1,5 +1,6 @@
 import React from 'react';
 import StoryInfo from './story-info';
+import PropTypes from 'prop-types';
 
 function NewsList({ stories }) {
     return (
@@ -26,6 +27,10 @@ function NewsList({ stories }) {
             </div>
         </div>
     )
+}
+
+NewsList.propTypes={
+    stories:PropTypes.array.isRequired
 }
 
 export default NewsList;

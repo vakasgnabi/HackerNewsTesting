@@ -1,18 +1,18 @@
 import React from 'react';
 
 
-function HeaderRow(){
+function HeaderRow() {
     return (
         <div className="row header-row">
             <div className="col-md-3">
-                <img src="..\images\y18.gif" width="18" height="18" className="header-img" />
+                <img alt="logo" src="..\images\y18.gif" width="18" height="18" className="header-img" />
                 <strong className="heading-txt">Hacker News</strong>
             </div>
             <div className="col-md-7 middle-links">
-                <a href="#">new</a> | <a href="#">past</a> | <a href="#">comments</a> | <a href="#">ask</a> | <a href="#">show</a> | <a href="#">jobs</a> | <a href="#">submit</a>
+                <button type="button" className="btn btn-link">new</button> | <button type="button" className="btn btn-link">past</button> | <button type="button" className="btn btn-link">comments</button> | <button type="button" className="btn btn-link">ask</button> | <button type="button" className="btn btn-link">show</button> | <button type="button" className="btn btn-link">jobs</button> | <button type="button" className="btn btn-link">submit</button>
             </div>
             <div className="col-md-2 login-link">
-                <a href="#">Login</a>
+                <button type="button" className="btn btn-link">Login</button>
             </div>
         </div>
     )
